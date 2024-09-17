@@ -1,0 +1,30 @@
+.post-content {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  margin-top: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.img-content {
+  border-radius: 13px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.img-content > img {
+  border-radius: 13px;
+  border: 1px solid black;
+}
+.article-content {
+  font-family: "Mingzat", sans-serif;
+  font-weight: 500;
+  color: rgb(143, 142, 142);
+}
+
+.title-content {
+  font-size: 31px;
+}
+.article-content {
+  font-size: 20px;
+}

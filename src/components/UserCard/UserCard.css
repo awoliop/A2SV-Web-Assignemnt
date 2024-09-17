@@ -1,0 +1,62 @@
+.UserCard-div {
+  /* border: 1px solid black; */
+  display: flex;
+  height: 70px;
+}
+
+.UserCard-div > img {
+  height: 100px;
+  width: 100px;
+}
+
+.img-div {
+  height: 70px;
+  width: 70px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: none;
+}
+
+.user-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.user-div > h3 {
+  position: relative;
+  top: -15px;
+  padding-left: 10px;
+  font-family: "Mingzat", sans-serif;
+  font-weight: 600;
+}
+
+.user-div > span {
+  color: rgb(177, 177, 177);
+  position: relative;
+  font-family: "Mingzat", sans-serif;
+  font-weight: 600;
+  top: -19px;
+  font-size: 14px;
+}
+
+.user-div > span > span {
+  position: relative;
+  top: -3px;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.carrer-div {
+  position: relative;
+  top: -60px;
+  margin-left: 10px;
+  color: rgb(189, 185, 185);
+  font-family: "Mingzat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding-top: 10px;
+}
